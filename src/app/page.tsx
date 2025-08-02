@@ -393,6 +393,7 @@ function HomeClient() {
           </div>
         </div>
       )}
+      <Script defer src="https://analytic.bjj.qzz.io/tracker.min.js" data-website-id="自定义网站唯一标识"></Script>
     </PageLayout>
   );
 }

@@ -393,7 +393,7 @@ function HomeClient() {
           </div>
         </div>
       )}
-      <Script defer src="https://analytic.bjj.qzz.io/tracker.min.js" data-website-id="哈基米"></Script>
+      <Script defer src="https://analytic.bjj.qzz.io/tracker.min.js" data-website-id="HaJiMi"></Script>
     </PageLayout>
   );
 }

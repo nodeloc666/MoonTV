@@ -5,6 +5,7 @@
 import { ChevronRight } from 'lucide-react';
 import Link from 'next/link';
 import { Suspense, useEffect, useState } from 'react';
+import Script from 'next/script';
 
 // 客户端收藏 API
 import {
@@ -392,6 +393,7 @@ function HomeClient() {
           </div>
         </div>
       )}
+      <Script defer src="https://analytic.bjj.qzz.io/tracker.min.js" data-website-id="哈基米"></Script>
     </PageLayout>
   );
 }

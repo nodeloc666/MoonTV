@@ -6,7 +6,6 @@ import { ChevronRight } from 'lucide-react';
 import Link from 'next/link';
 import { Suspense, useEffect, useState } from 'react';
 
-
 // 客户端收藏 API
 import {
   clearAllFavorites,
@@ -393,6 +392,7 @@ function HomeClient() {
           </div>
         </div>
       )}
+    </PageLayout>
   );
 }
 
